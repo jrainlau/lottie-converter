@@ -16,9 +16,9 @@
     <el-form-item label="">
       <el-button type="primary" :disabled="!readyToExport" @click="exportFrame('current')">export CURRENT frame</el-button>
     </el-form-item>
-    <el-form-item label="">
+    <!-- <el-form-item label="">
       <el-button type="primary" :disabled="!readyToExport" @click="exportApng">export APNG</el-button>
-    </el-form-item>
+    </el-form-item> -->
 
     <div class="link">
       More function could be found in <a href="https://lottiefiles.com/" target="_blank">lottiefiles.com</a>

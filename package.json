@@ -7,7 +7,8 @@
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
-    "dev:server": "nodemon ./server/app.js"
+    "dev:server": "nodemon ./server/app.js",
+    "deploy": "yarn build&& npx vercel --prod"
   },
   "dependencies": {
     "@lottiefiles/lottie-player": "^2.0.2",
